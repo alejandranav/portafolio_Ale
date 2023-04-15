@@ -1,3 +1,5 @@
+
+
 body{background-color: black;}
 
 .navbar{background-color: #EFFF39; position: fixed; top: 0; width: 100%;}
@@ -9,3 +11,5 @@ body{background-color: black;}
 
 .present{color: white; font-family: 'Inter', sans-serif; margin-top: 150px; margin-left: 45px;}  
 .hello{font-size: 100px;}
+
+footer{background: linear-gradient(rgba(0, 0, 0, 0.66),#242424);}
