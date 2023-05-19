@@ -37,22 +37,27 @@ h3{margin-left: 100px; color: white;}
 }
 
 .tit2{
-    margin-left: 60%;
+    margin-left: 40%;
     margin-top: 30%;
+    font-size: 100px;
 }
 .tit21{
-    margin-left: 60%;
+    margin-left: 40%;
+    font-size: 100px;
 }
 .parr2{
     margin-top: 9%;
     margin-right: 6%;
 }
-/*TRES=====================================================================*/
-.tres{
-    background-color: #EFFF39;
+.imagenes{
+    margin-left: 50%;
 }
+/*TRES=====================================================================*/
 .tit3{
-    margin-left: 30%;
+    margin-left: 35%;
+}
+.tit31{
+    margin-left: 35%;
 }
 /*CUATRO=====================================================================*/
 .cuatro{
@@ -61,3 +66,73 @@ h3{margin-left: 100px; color: white;}
 .tit4{
     margin-left: 30%;
 }
+
+
+/*FORMULARIO_________________________________________________________________*/
+
+.iconcontact{
+    display: flex;
+    justify-content: center;
+}
+svg{
+    margin-right: 120px;
+    margin-top: 100px;
+    margin-right: 120px;
+    margin-bottom: 30px;
+    color: #EFFF39;
+}
+svg,p{
+    color: white;
+}
+
+.formulario{margin:0 auto;
+    width: 1000px;
+    padding: 2em;
+    border: 1px solid #EFFF39;
+    border-radius: 2em;
+    margin-top: 20px; }
+
+form li + li{margin-top: 1em;}
+
+
+input, textarea {
+font: 35px 'Inter', sans-serif; 
+width: 80%;
+box-sizing: border-box;
+border: 1px solid #242424;
+background-color: #24242473;
+border-radius: 10px;
+font-size: 25px;
+color: white;
+}
+input:focus{
+border-color: #EFFF39;
+}
+textarea:focus{
+border-color: #EFFF39;
+}
+
+.btn1{
+font-size: 28px;
+border-color:#EFFF39;  
+border-radius: 25px;  
+font-family: 'Inter', sans-serif;
+background-color: black;
+color: white;
+margin-left: 250px;
+margin-top: 45px;
+margin-right: 200px;
+width: 180px;
+}
+.btn1:hover{background-color: #EFFF39; color: black;}
+
+.btn2{
+font-size: 28px;
+border-color:#EFFF39;  
+border-radius: 25px;  
+font-family: 'Inter', sans-serif;
+background-color: black;
+color: white;
+width: 180px;
+}
+.btn2:hover{background-color: #EFFF39; color: black;}
