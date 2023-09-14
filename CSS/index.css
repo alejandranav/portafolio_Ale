@@ -70,6 +70,11 @@ h3{margin-left: 100px; color: white;}
 
 /*FORMULARIO_________________________________________________________________*/
 
+.tit4{
+    color: white;
+    justify-content: center;
+    font-size: 60px;
+}
 .iconcontact{
     display: flex;
     justify-content: center;
@@ -88,21 +93,21 @@ svg,p{
 .formulario{margin:0 auto;
     width: 1000px;
     padding: 2em;
-    border: 1px solid #EFFF39;
-    border-radius: 2em;
-    margin-top: 20px; }
+    margin-top: 20px; 
+    display: flex;
+    justify-content: center;
+}
 
 form li + li{margin-top: 1em;}
 
 
 input, textarea {
 font: 35px 'Inter', sans-serif; 
-width: 80%;
+width: 1300px;
 box-sizing: border-box;
 border: 1px solid #242424;
 background-color: #24242473;
 border-radius: 10px;
-font-size: 25px;
 color: white;
 }
 input:focus{
@@ -113,26 +118,13 @@ border-color: #EFFF39;
 }
 
 .btn1{
-font-size: 28px;
+font-size: 35px;
 border-color:#EFFF39;  
 border-radius: 25px;  
 font-family: 'Inter', sans-serif;
 background-color: black;
 color: white;
-margin-left: 250px;
-margin-top: 45px;
-margin-right: 200px;
-width: 180px;
+width: 200px;
+margin-left: 40%;
 }
 .btn1:hover{background-color: #EFFF39; color: black;}
-
-.btn2{
-font-size: 28px;
-border-color:#EFFF39;  
-border-radius: 25px;  
-font-family: 'Inter', sans-serif;
-background-color: black;
-color: white;
-width: 180px;
-}
-.btn2:hover{background-color: #EFFF39; color: black;}
